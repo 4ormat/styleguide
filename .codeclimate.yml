@@ -1,0 +1,46 @@
+version: "2"
+checks:
+  method-lines:
+    enabled: true
+    config:
+      threshold: 30
+  file-lines:
+    enabled: true
+    config:
+      threshold: 300
+plugins:
+  coffeelint:
+    config: coffeelint.json
+  rubocop:
+    channel: "rubocop-0-59"
+  eslint:
+    channel: "eslint-4"
+  brakeman:
+    checks:
+      no_attr_accessible:
+        enabled: false
+      mass_assign_call:
+        enabled: false
+  duplication:
+    config:
+      languages:
+      - ruby
+      - javascript
+  fixme:
+    enabled: true
+    config:
+      strings:
+        - SUPAHACK
+        - TODO
+        - FIXME
+        - HACK
+        - XXX
+        - BUG
+exclude_patterns:
+  - "**/vendor/**/*"
+  - "doc/"
+  - "**/*.jpg"
+  - "**/*.png"
+  - "**/*.html"
+  - "**/*.scss"
+  - "db/"
