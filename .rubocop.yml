@@ -14,9 +14,6 @@ AllCops:
     - 'db/**/*'
     - 'bin/bundle'
 
-Rails:
-  Enabled: true
-
 Metrics/AbcSize:
   Max: 20
 
