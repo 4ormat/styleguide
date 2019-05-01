@@ -104,23 +104,5 @@ CaseIndentation:
 Style/SpecialGlobalVars:
   Enabled: false
 
-Rails/FilePath:
-  Enabled: false
-
-Layout/ClassStructure:
-  Enabled: true
-
-Style/DoubleNegation:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/SafeNavigation:
-  Enabled: false
-
-RSpec/DescribedClass:
-  Enabled: false
-
 RSpec/ExampleLength:
   Max: 10
