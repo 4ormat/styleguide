@@ -57,6 +57,9 @@ Performance/RedundantMerge:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
+
 Rails/ApplicationRecord:
   Enabled: false
 
