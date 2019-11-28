@@ -16,6 +16,7 @@ AllCops:
   Exclude:
     - 'db/**/*'
     - 'bin/bundle'
+  ExtraDetails: true
 
 Metrics/AbcSize:
   Max: 20
@@ -136,3 +137,10 @@ Style/FrozenStringLiteralComment:
 
 Style/SafeNavigation:
   Enabled: false
+
+RSpec/MultipleExpectations:
+  Details: >-
+    It's discouraged to have more than one expectation per example, but if
+    it's necessary, you should add the :aggregate_failures option to the example
+    so that the example doesn't immediately abort.
+    More details at https://relishapp.com/rspec/rspec-expectations/v/3-9/docs/aggregating-failures
