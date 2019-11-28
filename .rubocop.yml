@@ -131,6 +131,9 @@ RSpec/ExampleLength:
 RSpec/FilePath:
   IgnoreMethods: true
 
+RSpec/MultipleExpectations:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
