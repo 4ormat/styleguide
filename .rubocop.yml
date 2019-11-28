@@ -8,8 +8,6 @@ inherit_mode:
     - Include
     - Exclude
 
-ExtraDetails: true
-
 AllCops:
   Include:
     - '**/Rakefile'
