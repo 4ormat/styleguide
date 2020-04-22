@@ -75,9 +75,6 @@ Rails/SkipsModelValidations:
 Rails/UnknownEnv:
   Environments: [ production, staging, development, test, asset_precompile ]
 
-Style/ClassAndModuleChildren:
-  EnforcedStyle: compact
-
 Style/DoubleNegation:
   Enabled: false
 
