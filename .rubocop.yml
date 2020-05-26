@@ -44,12 +44,12 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Max: 250
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   AllowedNames:
     - 'id'
     - 'ip'
 
-Naming/UncommunicativeBlockParamName:
+Naming/BlockParameterName:
   AllowedNames:
     - 'id'
     - 'ip'
@@ -57,10 +57,10 @@ Naming/UncommunicativeBlockParamName:
 Performance/RedundantMerge:
   MaxKeyValuePairs: 1
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Rails/ApplicationRecord:
@@ -103,7 +103,7 @@ Layout/DotPosition:
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Style/TrailingCommaInArrayLiteral:
