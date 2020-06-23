@@ -88,7 +88,7 @@ Layout/MultilineMethodCallIndentation:
 Style/MutableConstant:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 Style/StringLiterals:
