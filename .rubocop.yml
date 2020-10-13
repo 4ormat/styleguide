@@ -215,3 +215,165 @@ Style/RedundantRegexpEscape:
 
 Style/SlicingWithRange:
   Enabled: true
+
+# RuboCop 0.93.1 new rules
+Layout/BeginEndAlignment: # (new in 0.91)
+  Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands: # (new in 0.89)
+  Enabled: true
+
+Lint/ConstantDefinitionInBlock: # (new in 0.91)
+  Enabled: true
+
+Lint/DuplicateRequire: # (new in 0.90)
+  Enabled: true
+
+Lint/DuplicateRescueException: # (new in 0.89)
+  Enabled: true
+
+Lint/EmptyConditionalBody: # (new in 0.89)
+  Enabled: true
+
+Lint/EmptyFile: # (new in 0.90)
+  Enabled: true
+
+Lint/FloatComparison: # (new in 0.89)
+  Enabled: true
+
+Lint/HashCompareByIdentity: # (new in 0.93)
+  Enabled: true
+
+Lint/IdentityComparison: # (new in 0.91)
+  Enabled: true
+
+Lint/MissingSuper: # (new in 0.89)
+  Enabled: true
+
+Lint/OutOfRangeRegexpRef: # (new in 0.89)
+  Enabled: true
+
+Lint/RedundantSafeNavigation: # (new in 0.93)
+  Enabled: true
+
+Lint/SelfAssignment: # (new in 0.89)
+  Enabled: true
+
+Lint/TopLevelReturnWithArgument: # (new in 0.89)
+  Enabled: true
+
+Lint/TrailingCommaInAttributeDeclaration: # (new in 0.90)
+  Enabled: true
+
+Lint/UnreachableLoop: # (new in 0.89)
+  Enabled: true
+
+Lint/UselessMethodDefinition: # (new in 0.90)
+  Enabled: true
+
+Lint/UselessTimes: # (new in 0.91)
+  Enabled: true
+
+Style/ClassEqualityComparison: # (new in 0.93)
+  Enabled: true
+
+Style/CombinableLoops: # (new in 0.90)
+  Enabled: true
+
+Style/ExplicitBlockArgument: # (new in 0.89)
+  Enabled: true
+
+Style/GlobalStdStream: # (new in 0.89)
+  Enabled: true
+
+Style/KeywordParametersOrder: # (new in 0.90)
+  Enabled: true
+
+Style/OptionalBooleanParameter: # (new in 0.89)
+  Enabled: true
+
+Style/RedundantSelfAssignment: # (new in 0.90)
+  Enabled: true
+
+Style/SingleArgumentDig: # (new in 0.89)
+  Enabled: true
+
+Style/SoleNestedConditional: # (new in 0.89)
+  Enabled: true
+
+Style/StringConcatenation: # (new in 0.89)
+  Enabled: true
+
+# rubocop-performance 1.8 new rules
+Performance/AncestorsInclude: # (new in 1.7)
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument: # (new in 1.7)
+  Enabled: true
+
+Performance/RedundantSortBlock: # (new in 1.7)
+  Enabled: true
+
+Performance/RedundantStringChars: # (new in 1.7)
+  Enabled: true
+
+Performance/ReverseFirst: # (new in 1.7)
+  Enabled: true
+
+Performance/SortReverse: # (new in 1.7)
+  Enabled: true
+
+Performance/Squeeze: # (new in 1.7)
+  Enabled: true
+
+Performance/StringInclude: # (new in 1.7)
+  Enabled: true
+
+Performance/Sum: # (new in 1.8)
+  Enabled: true
+
+# rubocop-rails 2.8 new rules
+Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
+  Enabled: true
+
+Rails/AfterCommitOverride: # (new in 2.8)
+  Enabled: true
+
+Rails/FindById: # (new in 2.7)
+  Enabled: true
+
+Rails/Inquiry: # (new in 2.7)
+  Enabled: true
+
+Rails/MailerName: # (new in 2.7)
+  Enabled: true
+
+Rails/MatchRoute: # (new in 2.7)
+  Enabled: true
+
+Rails/NegateInclude: # (new in 2.7)
+  Enabled: true
+
+Rails/Pluck: # (new in 2.7)
+  Enabled: true
+
+Rails/PluckInWhere: # (new in 2.7)
+  Enabled: true
+
+Rails/RenderInline: # (new in 2.7)
+  Enabled: true
+
+Rails/RenderPlainText: # (new in 2.7)
+  Enabled: true
+
+Rails/ShortI18n: # (new in 2.7)
+  Enabled: true
+
+Rails/SquishedSQLHeredocs: # (new in 2.8)
+  Enabled: true
+
+Rails/WhereExists: # (new in 2.7)
+  Enabled: true
+
+Rails/WhereNot: # (new in 2.8)
+  Enabled: true
