@@ -304,7 +304,7 @@ Style/SoleNestedConditional: # (new in 0.89)
 Style/StringConcatenation: # (new in 0.89)
   Enabled: true
 
-# rubocop-performance 1.8 new rules
+# rubocop-performance new rules
 Performance/AncestorsInclude: # (new in 1.7)
   Enabled: true
 
@@ -330,6 +330,18 @@ Performance/StringInclude: # (new in 1.7)
   Enabled: true
 
 Performance/Sum: # (new in 1.8)
+  Enabled: true
+
+Performance/BlockGivenWithExplicitBlock: # (new in 1.9)
+  Enabled: true
+
+Performance/CollectionLiteralInLoop: # (new in 1.8)
+  Enabled: true
+
+Performance/ConstantRegexp: # (new in 1.9)
+  Enabled: true
+
+Performance/MethodObjectAsBlock: # (new in 1.9)
   Enabled: true
 
 # rubocop-rails 2.8 new rules
