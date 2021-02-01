@@ -389,3 +389,7 @@ Rails/WhereExists: # (new in 2.7)
 
 Rails/WhereNot: # (new in 2.8)
   Enabled: true
+
+# rubocop-rspec new rules
+RSpec/StubbedMock: # (new in 1.44)
+  Enabled: true
