@@ -344,7 +344,7 @@ Performance/ConstantRegexp: # (new in 1.9)
 Performance/MethodObjectAsBlock: # (new in 1.9)
   Enabled: true
 
-# rubocop-rails 2.8 new rules
+# rubocop-rails new rules
 Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
   Enabled: true
 
@@ -388,6 +388,12 @@ Rails/WhereExists: # (new in 2.7)
   Enabled: true
 
 Rails/WhereNot: # (new in 2.8)
+  Enabled: true
+
+Rails/AttributeDefaultBlockValue: # (new in 2.9)
+  Enabled: true
+
+Rails/WhereEquals: # (new in 2.9)
   Enabled: true
 
 # rubocop-rspec new rules
