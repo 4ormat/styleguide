@@ -106,6 +106,9 @@ Layout/EndAlignment:
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
 
