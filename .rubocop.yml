@@ -9,6 +9,7 @@ inherit_mode:
     - Exclude
 
 AllCops:
+  NewCops: enable
   Include:
     - '**/Rakefile'
     - '**/config.ru'
@@ -22,7 +23,7 @@ Metrics/AbcSize:
   Max: 20
 
 Metrics/BlockLength:
-  ExcludedMethods:
+  IgnoredMethods:
     - 'describe'
     - 'context'
     - 'concern'
