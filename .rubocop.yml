@@ -23,7 +23,7 @@ Metrics/AbcSize:
   Max: 20
 
 Metrics/BlockLength:
-  IgnoredMethods:
+  AllowedMethods:
     - 'describe'
     - 'context'
     - 'concern'
