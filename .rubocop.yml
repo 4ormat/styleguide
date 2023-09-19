@@ -133,8 +133,12 @@ RSpec/DescribedClass:
 RSpec/ExampleLength:
   Max: 10
 
-RSpec/FilePath:
+RSpec/SpecFilePathFormat:
+  Enabled: true
   IgnoreMethods: true
+
+RSpec/SpecFilePathSuffix:
+  Enabled: true
 
 Style/FrozenStringLiteralComment:
   Enabled: false
